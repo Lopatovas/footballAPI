@@ -1,0 +1,40 @@
+{
+  "name": "football-app",
+  "version": "1.0.0",
+  "description": "The CLI for the football app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start": "node app.js",
+    "watch": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Lopatovas/pcacademy"
+  },
+  "keywords": [
+    "Node.js",
+    "CLI",
+    "MongoDB"
+  ],
+  "author": "Edgaras Lopatovas",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "boom": "^7.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.14",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.7"
+  }
+}
